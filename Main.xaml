@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>844,1402</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>854,674.6666666666666</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -99,13 +99,13 @@
       <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="550.6666666666666,1337.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence sap:VirtualizedContainerService.HintSize="496,610" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="488.6666666666667,1226.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="434,499.3333333333333" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
         <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="450,987.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <Sequence.Variables>
@@ -139,7 +139,7 @@
               <scg:Dictionary x:TypeArguments="x:String, Argument" />
             </ui:InvokeWorkflowFile.Arguments>
           </ui:InvokeWorkflowFile>
-          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="[&quot;Hello All,&#xA;&#xA;Item  &quot;+in_ItemName +&quot; Is created Successfully In Team Center&#xA;&#xA;Regards,&#xA;Dev_RPA&#xA;Robotic Process Automation&quot;]" DisplayName="Send SMTP Mail Message" Email="DevRpaBot@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="388,255.33333333333334" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Password="wqcm dkzh mdhi ihbe" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Item Creation and Update Successfull" To="rachana.mane@intelizign.com;kishore.chavan@intelizign.com">
+          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="[&quot;Hello All,&#xA;&#xA;Item  &quot;+in_ItemName +&quot; Is created Successfully In Team Center&#xA;&#xA;Regards,&#xA;Dev_RPA&#xA;Robotic Process Automation&quot;]" DisplayName="Send SMTP Mail Message" Email="DevRpaBot@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="388,255.33333333333334" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Password="nxoq omky fudj gade" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Item Creation and Update Successfull" To="rachana.mane@intelizign.com;kishore.chavan@intelizign.com">
             <ui:SendMail.Files>
               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
             </ui:SendMail.Files>
@@ -153,10 +153,10 @@
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="454.6666666666667,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,326" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -164,7 +164,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="[&quot;Hello All,&#xA;&#xA;Could not create Item -  &quot;+in_ItemName +&quot; In Team Center&#xA;&#xA;Regards,&#xA;Dev_RPA&#xA;Robotic Process Automation&quot;]" DisplayName="Send SMTP Mail Message" Email="DevRpaBot@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="334,258" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="False" Password="wqcm dkzh mdhi ihbe" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Item creation/Updation failed" To="rachana.mane@intelizign.com;kishore.chavan@intelizign.com">
+            <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="[&quot;Hello All,&#xA;&#xA;Could not create Item -  &quot;+in_ItemName +&quot; In Team Center&#xA;&#xA;Regards,&#xA;Dev_RPA&#xA;Robotic Process Automation&quot;]" DisplayName="Send SMTP Mail Message" Email="DevRpaBot@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="334,255.33333333333334" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="False" Password="nxoq omky fudj gade" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Item creation/Updation failed" To="rachana.mane@intelizign.com;kishore.chavan@intelizign.com">
               <ui:SendMail.Files>
                 <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
               </ui:SendMail.Files>
